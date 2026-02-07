@@ -46,7 +46,7 @@ class HighDimVisualizer:
         self.class_names = None
         self.label_encoder = None
         
-    def load_dataset(self, path="fruit_classification_dataset.csv", n_classes=3):
+    def load_dataset(self, path="../fruit_classification_dataset.csv", n_classes=3):
         """
         Загрузка датасета.
         
